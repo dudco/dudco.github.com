@@ -1,0 +1,6 @@
+---
+title : test
+layout : post
+---
+
+This is Test Post
