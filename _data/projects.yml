@@ -1,9 +1,3 @@
-- name: project 1
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-- name: project 2
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-- name: project 3
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+- name: "앱잼-발암"
+  link: "2017/02/23/test.html"
+  description: "한꺼번에 정리하는 2016년 음…이때가 대략 3~4월쯤 됬을것이다. 고등학교에 처음 입학하고 친해진 김xx가 갑자기 와서는 “야야 3월에 앱잼있데! 같이나가자!!” <–이러해서 갑자기..."
