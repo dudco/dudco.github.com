@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: {{ http://dudco.github.io }}{{ / }}/sitemap.xml
