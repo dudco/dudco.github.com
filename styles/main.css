@@ -252,7 +252,12 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Playfair Display', serif;
+     font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.my-item-name{
+     font-family: 'Nanum Gothic', serif;
     font-size: 16px;
     margin-bottom: 40px;
 }
