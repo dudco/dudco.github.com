@@ -198,6 +198,7 @@ a{
     font-family: 'Nanum Gothic', serif;
     font-size: 16px;
     margin-top: 20px;
+    display: block;
 }
 .my-text-body h1,h2,h3,h4,h5,h6 {
     font-family: 'Libre Franklin', sans-serif;
@@ -275,4 +276,18 @@ a{
 }
 img{
     max-width: 100%;
+}
+
+img.left-align{
+  max-width: 49%;
+  height: auto;
+  margin-bottom: 15px;
+  float: left;
+}
+
+img.right-align{
+  max-width: 49%;
+  height: auto;
+  margin-bottom: 15px;
+  float: right;
 }
