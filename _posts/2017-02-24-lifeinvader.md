@@ -35,7 +35,7 @@ author: "dudco"
 
 딱 이때 제가 Android Animation 쪽에 관심을 가지면서 어떻게 앱을 이쁘게 만들 수 있을까??를 고민하던 찰나였습니다. 그래서 완성된 로그인 화면이 이렇습니다.
 
-<div style="display: flex; width: 33%;">
+<div class="image3">
 <img src="http://postfiles13.naver.net/MjAxNzAxMTZfMTU3/MDAxNDg0NTU0Mjk0MDg5.o1ZVGx2HNqsl2-rynaT88W9Z2n7VP6Ox6Aw5TOgVl8Eg.AP4yj4Vndw44WKGSnzBFp0bplTUj8Wg-KTnRLvVVb4cg.GIF.dudco1129/liefeinvader1.gif?type=w773" style="margin-right: 3px; width: 100%; height: 100%"/>
 <img src="http://postfiles11.naver.net/MjAxNzAxMTZfMTc3/MDAxNDg0NTU0MjkzMTIx.Rw-FeaXoFcrc2jvHUUngFIwFTruzC4Rq5thRcSvQjiYg.OvhwY8bPegpd-HSBVHosyrIbY2op0XGRw49hmqkSkYAg.GIF.dudco1129/lifeinvader2.gif?type=w773" style="margin-right: 3px; width: 100%; height: 100%;"/>
 <img src="http://postfiles5.naver.net/MjAxNzAxMTZfMTky/MDAxNDg0NTU0MjkyODI2.xWmiZiGm1UHUKQuC14uVzym-PqbhOOXbDSKB0efu6BYg.QcgL_LYY1b66ppZuZpPsa72Fx9U_tF4RpKMygjuJwLEg.GIF.dudco1129/lifeinvader3.gif?type=w773" style=" width: 100%; height: 100%;"/>

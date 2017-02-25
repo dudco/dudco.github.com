@@ -277,17 +277,30 @@ a{
 img{
     max-width: 100%;
 }
-
-img.left-align{
-  max-width: 49%;
-  height: auto;
-  margin-bottom: 15px;
-  float: left;
+div.image3{
+  height: 350px;
+  display: flex;
+  width: 33%;
+  margin-bottom: 10px;
 }
 
-img.right-align{
-  max-width: 49%;
-  height: auto;
-  margin-bottom: 15px;
-  float: right;
+div.image2{
+  display: flex;
+  width: 50%;
+  height: 600px;
+  margin-bottom: 10px;
+}
+@media (max-width:500px){
+  div.image3{
+    height: 200px;
+    display: flex;
+    width: 33%;
+    margin-bottom: 10px;
+  }
+  div.image2{
+    height: 400px;
+    display: flex;
+    width: 50%;
+    margin-bottom: 10px;
+  }
 }

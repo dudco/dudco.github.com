@@ -50,13 +50,13 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 개발했습니다.
 그래서 저는 실제로 명함을 원하는데로 디자인하고 만들 수 있는 그림판(?)같은 것을 만들었습니다.
 
-<div style="display: flex; width: 33%; height: 350px; margin-bottom: 10px;">
+<div class="image3">
 <img src="http://postfiles11.naver.net/MjAxNzAyMDlfMjk0/MDAxNDg2NjE1MDk0ODI3.U8rwMPQclUrcv85-wDqFnPDFj_8SE03YNgg_5TzCIyUg.hEICV4to7A8IYjbxevQCjuDEBcjv60_RbqPS3Kp_q3Ig.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-11.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles4.naver.net/MjAxNzAyMDlfMjgg/MDAxNDg2NjE1MTA1NzE1.Pf7IKyhvhiR7kdxDWvrfMyy89m413xVRfnbql-EIj4Ag.Pqd7iMd6fCANH6-PtvN9VYUuQMwPyeHSePOGbLOLunkg.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-1.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 <img src="http://postfiles14.naver.net/MjAxNzAyMDlfMTUw/MDAxNDg2NjE1MTA1MDk1.dZkXmBqpLo5B9yFPeN43zNl2b6IXJvhmWz9NcJOCvsgg.dw7glrgKUl0KhoEkTuvw0P7UOR8Dh0scGIaM89HB6p0g.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-2.jpeg?type=w773" style=" width: auto; height: auto;"/>
 </div>
 
-<div style="display: flex; width: 33%; height: 350px;">
+<div class="image3">
 <img src="http://postfiles5.naver.net/MjAxNzAyMDlfMjg3/MDAxNDg2NjE1MTA1NDQ0.XV_SqiGNoprqKPKz5p6e0648-Mfwd8isuPv0tT6iKLUg.qKFPO5oylUBAUyE-lGoADgDMhumK3rX-r9WTEMpgFysg.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-3.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles7.naver.net/MjAxNzAyMDlfMTUx/MDAxNDg2NjE1MTA1MTk1.GaY7O_AjhTSG38mufURE6IrjMfdBIm07lafppa-ukFwg.ntnXY7xXJzgMYS4kLwlwNKEQZ_PCxXHgSCg1NHO00Aog.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-4.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 <img src="http://postfiles1.naver.net/MjAxNzAyMDlfMTAw/MDAxNDg2NjE1MTA1NTU5.7ahN_C6_GpP5DrRWzDpN3wwOKZfnxzbU7WIXRXUZ3Q4g.TBzKtq529Rf3Mq44INe7zhWh_bVs5KQtae6TsRtunMwg.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-5.jpeg?type=w773" style=" width: auto; height: auto;"/>
@@ -70,7 +70,7 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 [https://github.com/wuapnjie/StickerView](https://github.com/wuapnjie/StickerView)
 
 
-<div style="display: flex; width: 50%; height: 600px;">
+<div class="image2">
 <img src="http://postfiles4.naver.net/MjAxNzAyMDlfNzgg/MDAxNDg2NjE1NDEzMzY4.5z6boOOVrbMLfmW3pOpBF4JDklGzDyq9RXwKDMKWMNUg.aCjtv60mY0qjr0l3bjDopAvc1U9mdH0aZOr2kMRyPZ4g.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-4.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles4.naver.net/MjAxNzAyMDlfMTQ2/MDAxNDg2NjE1NDAzNzQ0.xf-S4uRvc2XyqbRhQi6hmdRPsvR3SEGk0HQ9pqM9Llog.rZosD2DiXidh-nf1VBLMDa4M-Wdf8TQJW0bCEunxDSwg.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-1.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 </div>
@@ -80,7 +80,7 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 메인 화면에는 아래와 같은 명함이 들어갑니다.
 
 
-<div style="display: flex; width: 33%; height: 150px;">
+<div class="image3">
 <img src="http://postfiles13.naver.net/MjAxNzAyMDlfMjQ4/MDAxNDg2NjE1NDg0NTk4.o0BR1H7QZ35o7exHc2Y6baAOf0fjMJIZydM7D0k7Hr8g.TmG0gQH-nh2i8YcFhaT8A-mSIOIJycnGQX3AjzZBV14g.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-8.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles7.naver.net/MjAxNzAyMDlfMTU4/MDAxNDg2NjE1NDg0MDI0.kBk2bF942T6luNWuotOtuYLF08emMBV3iktIZAW1Xzkg.F6UhnnA9tvNh06AsATlxEg7IIumaPTdCWq1PGfdJwx0g.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-11.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 <img src="http://postfiles13.naver.net/MjAxNzAyMDlfMjYz/MDAxNDg2NjE1NDg2MTA1.p7p3Tb_irPz2DdUvYOqTqPlOUe22QTT75kv9H77kL7gg.j-_gFx_7yd7l-lFNG1OZ7tADrHvwIn8jDNMzsHihYJwg.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-12.png?type=w773" style=" width: auto; height: auto;"/>

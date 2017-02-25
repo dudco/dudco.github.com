@@ -14,7 +14,7 @@ author: "dudco"
 
 놀러오서울!(Oh! Visit Seoul)은 간단하게 말하면 인스타그램 같은 사진을 이용한 SNS입니다.
 
-<div style="display: flex; width: 49%; height: 600px;">
+<div class="image2">
 <img src="http://postfiles6.naver.net/MjAxNzAxMTZfMzQg/MDAxNDg0NTYyNTc2MjU2.qoSzGlRTlOfRZGnxt_ZnBnoqMHylrYTIrt6tF-Yqq8gg.TO1S3i6d8lL-joIo28GYYj9lvUvYzgcYrYwbUkQH3EUg.PNG.dudco1129/Login.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles9.naver.net/MjAxNzAxMTZfMjIx/MDAxNDg0NTYyNTY2Njcz.UItosqICJlbr_0H59lWcEAKUzcjiX3htqn_pqEB8Npog.OLWR7w0wFrTjE5ReaHBBYBTeWAXdAfd1eqoKGA2atiMg.PNG.dudco1129/Main.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 </div>
@@ -23,7 +23,7 @@ author: "dudco"
 
 메인화면의 최상단에는 곧 있을 행사를 4개 정도 표시해주고, 좋아요가 제일 많은 관광지, 또 요번 달에 추천해주고픈 관광지를 가로 리스트 형식으로 표시해줍니다.
 
-<div style="display: flex; width: 49%; height: 600px;">
+<div class="image2">
 <img src="http://postfiles10.naver.net/MjAxNzAxMTZfMjY2/MDAxNDg0NTYyNTc5NTUz.l8kB2C1t1h_aonYmr1CN2krHN0MeyjxPIFCrnfhwJscg.fAZt7We2eEvEtmnYLLnhbrjkft6Pfu1ZXOhC3UKyPL8g.PNG.dudco1129/Category.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles4.naver.net/MjAxNzAxMTZfNjgg/MDAxNDg0NTYyNTY2OTY4.uYaQmihoeoUcQkcsylIgwKMxCqU7gqJGFQUoYq1htGwg.uSrFVGg373ka8MD6v_aedqlkUZ45jKnxWUS8g7cu9UEg.PNG.dudco1129/Map_Visit.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 </div>
@@ -31,7 +31,7 @@ author: "dudco"
 카테고리에서 다양한 관광지를 분류해서 보여줍니다.
 또 지도에서는 실제 관광지의 위치를 핀으로 표시해줍니다.
 
-<div style="display: flex; width: 33%; height: 350px;">
+<div class="image3">
 <img src="http://postfiles10.naver.net/MjAxNzAxMTZfMTEy/MDAxNDg0NTYyNTYxMzI3.UkrZ2II12yHvw0SwmJpzPv-pPZj6LBoKgI0yuFeis14g.HMu8_sLDC5Wf0azppgJLoQ9lZdf2GOoiMy2_xmwkhN4g.PNG.dudco1129/Introduction_1.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
 <img src="http://postfiles1.naver.net/MjAxNzAxMTZfNzIg/MDAxNDg0NTYyNTQ2MzE5.raQ4M13ywVlgWzf_BCNha6H4KbmLx7aisjYIwHAHF8wg.ahTHM2pXhUXETBbxj-Iz_vk87La7kzLqh3Kwyk_eCCAg.PNG.dudco1129/Introduction_2.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
 <img src="http://postfiles1.naver.net/MjAxNzAxMTZfMjM3/MDAxNDg0NTYyNTg4MzYx.UYqG4gHJ2lb8zoHU59qLqjAVxisCVLcPT3s0jRR1bucg.evGXKo1WRMORC2pNZIOrgEIyPb1agYrDvXl_LK6uwk4g.PNG.dudco1129/Introduction_3.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
