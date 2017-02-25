@@ -128,7 +128,7 @@ author: "dudco"
 
 ![image](http://postfiles6.naver.net/MjAxNzAxMTZfMjY0/MDAxNDg0NTU2NTEyMTY3.c83YBm6mBvCy4z3Uyn0rg55hpB5LeI-eH-_1NqDADLsg.lppDhzMw6EmLzvD_SUP5u6DvJajui3pci_inUgTcrsog.JPEG.dudco1129/IMG_20160906_115758.jpg?type=w773)
 
-운 좋게 최우수상도 수상하여 무려 행정자치부 장관 상도 수상했습니다! ㅎㅎㅎ
+운 좋게 최우수상도 수상하여 무려 행정자치부 장관상도 수상했습니다! ㅎㅎㅎ
 
 ![image](http://postfiles1.naver.net/MjAxNzAxMTZfMTQ5/MDAxNDg0NTU2NzQ4NzM4.f9lo_nlgpDnapQZCmtKV-PGooh_D1Tq7QMuF3lIuzBQg.aXy2xk092tPkKdQXb7aHBDjfxg6nYr-gGZYErDD1A88g.JPEG.dudco1129/image_2765720801484556693579.jpg?type=w773)
 
