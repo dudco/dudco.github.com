@@ -14,6 +14,7 @@ author: "dudco"
 음... 음... 어디서 많이 본 것 같지 않나요? ㅋㅋㅋㅋ
 
 ![image](http://postfiles8.naver.net/MjAxNzAxMTZfNyAg/MDAxNDg0NTUyMTkwMjM5.bUi7OpsiH7Oyg6csSkmme340yv4oMJQwOhh-lkpDRnAg.Lp3_9rd-Dvq_psijkFBUkx_whfSVO945lJaGrh2nIxYg.JPEG.dudco1129/maxresdefault.jpg?type=w773)
+
 바로 GTA에 나오는 SNS의 이름입니다! ㅋㅋㅋㅋㅋㅋ
 
 친구한테 SNS 앱을 만들 건데 관련된 이름 좀 추천해달라고 하니까 이걸 추천하더군요 덕분에 디자인도 어느 정도 된 앱을 만들 수 있게 되었습니다! ㅎ

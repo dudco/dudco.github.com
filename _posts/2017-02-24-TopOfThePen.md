@@ -19,11 +19,13 @@ author: "dudco"
 블루투스를 통해 받는 것은 정말 간단하게 라이브러리를 써서 처리했다 ㅎㅎ
 앱 디자인이 정말 이뻤던 것 같다.
 
-<iframe width="544" height="306" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=910FECA8F453FE9DC3D2649D1E780AD870F3&outKey=V1210eec0b4a5d4e66629c5d7a43ca0795be77ac1b79c51a94fb5c5d7a43ca0795be7" frameborder="no" scrolling="no"></iframe>
+<iframe src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=910FECA8F453FE9DC3D2649D1E780AD870F3&outKey=V1210eec0b4a5d4e66629c5d7a43ca0795be77ac1b79c51a94fb5c5d7a43ca0795be7" frameborder="no" scrolling="no"></iframe>
 
 IOT 인식이 느립니당 ㅠㅠㅠㅠ ※소리 주의※
 
 이번 대회는 일단 선배랑 진행해서 정말 편했던 것 같다. 실제로 대회를 많이 경험해보신 분들이기 때문에 시간을 딱딱 정해 진행을 하셨다.
 또 한 가지 더 느낀 점은 앱 디자인은 이쁠수록 개발자가 고생을 한다는 것이다. ㅎㅎ
+
+<iframe src="https://docs.google.com/viewer?srcid=0B0QMcRMI39U_akg4T01vMDY2WXM&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="480px"></iframe>
 
 #### *[소스코드](https://github.com/dudco/11_AppJam_IoT_TopOfThePen)* ####

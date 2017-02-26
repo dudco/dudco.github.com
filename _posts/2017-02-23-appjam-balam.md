@@ -13,7 +13,7 @@ author: "dudco"
 
 그리하여 대회 당일날 주제가 공개되었다. 주제는 바로...
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RDtvoUZ4kD0" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/RDtvoUZ4kD0" frameborder="0" allowfullscreen></iframe>
 
 바로 이것... '바람의 빛깔'이라는 노래였다.
 
@@ -54,5 +54,7 @@ author: "dudco"
 처음으로 진행한 팀 프로젝트였다. 처음에 기획자가 기획을 안가져와 살짝의 멘붕, 또 내가해야할일을 어떻게든 해야겠다는 책임감..등등 좋은 경험이였던 것 같다.
 
 첫 대회에서 잃는 것 보다 얻는게 훨~~~씬 많았었다. 정말 좋은 경험이였던것 같다.
+
+<iframe src="https://docs.google.com/viewer?srcid=0B0QMcRMI39U_Y3J3SEZTa29XaU0&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="480px"></iframe>
 
 #### *[소스코드](https://github.com/dudco/balam)* ####

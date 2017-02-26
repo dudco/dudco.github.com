@@ -72,7 +72,7 @@ author: "dudco"
 ![image](http://postfiles6.naver.net/MjAxNzAxMTJfMTk3/MDAxNDg0MjMzMDA2OTQ0.46t8WNSV6wPXAlI-vbYbKVqwLlNNwZs2T4GGjJDOHUkg.r-s1qM1046VYFkwPCT1_Vax9t9AXRpFGu11AfxTx19kg.PNG.dudco1129/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2017-01-12_%EC%98%A4%ED%9B%84_11.52.22.png?type=w773)
 플로팅!
 
-<iframe width="544" height="306" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=712E420107E99678FFB364E705C456CBA990&outKey=V12102f37ffba5458812c675b389fa5c322edec5fe6b05b0b717b675b389fa5c322ed" frameborder="no" scrolling="no"></iframe>
+<iframe src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=712E420107E99678FFB364E705C456CBA990&outKey=V12102f37ffba5458812c675b389fa5c322edec5fe6b05b0b717b675b389fa5c322ed" frameborder="no" scrolling="no"></iframe>
 
 시연 영상인데 당시 제출 10분쯤 남기고 찍어서 엄청 급했다. (겁나 생생) 또 친구 목소리 그대로 나오니까 조심><
 

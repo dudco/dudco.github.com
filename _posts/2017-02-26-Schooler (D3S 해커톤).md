@@ -8,7 +8,7 @@ author: "dudco"
 
 ![image](http://postfiles15.naver.net/MjAxNzAyMDlfODAg/MDAxNDg2NjE2MDcxODg1.wVqkiZWiAOK1dp8X6gFohAREOAnuzCV6aqFcNnzMPUkg.a2_dt6ZYf2AYRDZYfJr4EGaKIoAJgZmodR4bJ9tTg54g.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-14.jpeg?type=w773)
 
-안녕하세요! 오늘은 4일, 5일 무박 2일 동안 진행된 D3S해커톤에서 진행한 Schooler 입니다!!
+안녕하세요! 오늘은 2월 4일, 5일 무박 2일 동안 진행된 D3S해커톤에서 진행한 Schooler 입니다!!
 일단 D3S해커톤은 D를 의미하는 <span style="color: #00c8ff;">디지털 미디어 고등학교</span>, <span style="color: #00c8ff;">대덕 소프트웨어마이스터 고등학교</span>, <span style="color: #00c8ff;">대구 소프트웨어 고등학교</span>와 S를 의미하는 <span style="color: #00c8ff;">선린인터넷</span> 고등학교 이렇게 네 학교가 모여서 진행한 해커톤입니다. 운영진까
 지 모~두 네 학교 학생들이 맡았고 기획부터 협찬까지 모두 고등학생이 진행한
 해커톤입니다!!
@@ -19,7 +19,7 @@ author: "dudco"
 저희는 선린, 디미, 대덕 이렇게 세 학교에서 온 사람들로 팀이 구성되었습니다.
 저와 기획자 선배가 선린, 개발자분이 대덕, 디자이너가 디미였습니다.
 
-<p>이번 대회의 주제는... <span style="color: red; font-size: 27px; font-weight: bold;">학교</span> !였습니다.
+<p>이번 대회의 주제는... <strong style="color: red; font-size: 27px; font-weight: bold;">학교</strong> !였습니다.
 저희는 학교라는 주제에 맞춰 <span style="color: #f02c8c">학생증을 만드는 앱</span>이 어떨까 생각을 하였습니다. 실제로 학교의 학생증의 디자인에 불만을 가진 학생들이 많다고 생각되었기 때문에 이대로 개발을 시작했고, 거기에 살을 더 붙여 이번 해커톤의 궁극적인 목표는 네 학교의 '<span style="color: red; font-size: 20px">네트워킹</span>'이라고 생각하여 NFC태그를 통한 <span style="color: #f02c8c">학생증 교환</span>과 <span style="color: #f02c8c">채팅기능</span> 까지 추가하였습니다.</p>
 
 
@@ -99,7 +99,7 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 
 또 다른 점으로 저희학교는 역시 대단하다(?)입니다.
 이번 대회의 상이 6개였는데 그중 4개를 선린이 있는팀이 수상한...
-그리고 대상은 <span style="font-size: 27px">저희팀</span>이!!! 헤ㅔㅔㅔㅔㅎㅎㅎㅎ
+그리고 대상은 <strong style="font-size: 27px">저희팀</strong>이!!! 헤ㅔㅔㅔㅔㅎㅎㅎㅎ
 
 굉장히 기분이 좋았어요 ㅎㅎㅎㅎ
 팀 빌딩에 실패하여 팀, 기획이 나오지않는 팀, 디자이너가 없어 디자인이 안나온느 팀 등
