@@ -36,62 +36,26 @@
     <link rel="stylesheet" href="{{ "/styles/syntax.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/styles/github-markdown.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/styles/fa/css/font-awesome.min.css" | prepend: site.baseurl }}">
-
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript">
       window.onresize = function(){
         console.log( "ready!" );
-        //image3
-        var containers = document.getElementsByClassName("image3");
-        for (container of containers) {
-          var images = container.childNodes;
-          for (var i = 1; i < images.length; i+=2) {
-            img = images[i];
-
-            min = img.naturalWidth > img.naturalHeight ? img.naturalHeight : img.naturalWidth;
-            max = img.naturalWidth < img.naturalHeight ? img.naturalHeight : img.naturalWidth;
-
-            var _gcd = gcd(min, max);
-            var _width = img.naturalWidth/_gcd;
-            var _height = img.naturalHeight/_gcd;
-
-            console.log(_gcd+" : "+img.naturalWidth/_gcd+" .. "+img.naturalHeight/_gcd);
-            console.log(_width+" : "+_height+" = "+img.width+" : "+img.height);
-            console.log(img.width * _height / _width);
-
-            container.style.height = (img.width * _height / _width)+"px";
-          }
-        }
-
-        var containers2 = document.getElementsByClassName("image2");
-        for (container of containers2) {
-          var images = container.childNodes;
-          for (var i = 1; i < images.length; i+=2) {
-            img = images[i];
-
-            min = img.naturalWidth > img.naturalHeight ? img.naturalHeight : img.naturalWidth;
-            max = img.naturalWidth < img.naturalHeight ? img.naturalHeight : img.naturalWidth;
-
-            var _gcd = gcd(min, max);
-            var _width = img.naturalWidth/_gcd;
-            var _height = img.naturalHeight/_gcd;
-
-            console.log(_gcd+" : "+img.naturalWidth/_gcd+" .. "+img.naturalHeight/_gcd);
-            console.log(_width+" : "+_height+" = "+img.width+" : "+img.height);
-            console.log(img.width * _height / _width);
-
-            container.style.height = (img.width * _height / _width)+"px";
-          }
-        }
-
-        function gcd(minNum, maxNum){
-          return (minNum % maxNum) === 0 ? maxNum : gcd(maxNum, minNum % maxNum);
-        }
+        img3();
+        img2();
       }
-      
+
       //onload
       window.onload = function(){
         console.log( "ready!" );
-        //image3
+        _showPage();
+        img3();
+        img2();
+      }
+      function gcd(minNum, maxNum){
+        return (minNum % maxNum) === 0 ? maxNum : gcd(maxNum, minNum % maxNum);
+      }
+
+      var img3 = function(){
         var containers = document.getElementsByClassName("image3");
         for (container of containers) {
           var images = container.childNodes;
@@ -112,7 +76,9 @@
             container.style.height = (img.width * _height / _width)+"px";
           }
         }
+      }
 
+      var img2 = function(){
         var containers2 = document.getElementsByClassName("image2");
         for (container of containers2) {
           var images = container.childNodes;
@@ -133,10 +99,12 @@
             container.style.height = (img.width * _height / _width)+"px";
           }
         }
-
-        function gcd(minNum, maxNum){
-          return (minNum % maxNum) === 0 ? maxNum : gcd(maxNum, minNum % maxNum);
-        }
       }
+      var _showPage = function() {
+        var loader = $("div.loader");
+        var container = $("div.container");
+        loader.css("display","none");
+        container.css("display","block");
+      };
     </script>
 </head>
