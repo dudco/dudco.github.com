@@ -12,7 +12,7 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   src: local('Material Icons'), local('MaterialIcons-Regular'), url(fonts/icons.ttf) format('truetype');
 }
 
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 .material-icons {
   font-family: 'Material Icons';
