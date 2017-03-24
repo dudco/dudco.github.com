@@ -196,7 +196,7 @@ a{
     color: #38c1c1;
 }
 .my-text-body{
-    font-family: 'Nanum Gothic', serif;
+    font-family: 'Nanum Gothic', san-serif;
     font-size: 16px;
     margin-top: 20px;
     display: block;
@@ -254,12 +254,12 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Nanum Gothic', serif;
+     font-family: 'Nanum Gothic', san-serif;
     font-size: 16px;
     margin-bottom: 40px;
 }
 .my-item-name{
-     font-family: 'Nanum Gothic', serif;
+     font-family: 'Nanum Gothic', san-serif;
     font-size: 16px;
     margin-bottom: 40px;
 }
