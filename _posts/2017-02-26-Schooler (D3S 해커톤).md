@@ -4,9 +4,11 @@ title:  "Schooler (D3S해커톤)"
 date:   2017-02-26 02:32:10 0000
 tags: ['해커톤']
 author: "dudco"
+photos:
+- http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_MElLcXgwSENiclk
 ---
 
-![image](http://postfiles15.naver.net/MjAxNzAyMDlfODAg/MDAxNDg2NjE2MDcxODg1.wVqkiZWiAOK1dp8X6gFohAREOAnuzCV6aqFcNnzMPUkg.a2_dt6ZYf2AYRDZYfJr4EGaKIoAJgZmodR4bJ9tTg54g.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-14.jpeg?type=w773)
+# 기획
 
 안녕하세요! 오늘은 2월 4일, 5일 무박 2일 동안 진행된 D3S해커톤에서 진행한 Schooler 입니다!!
 일단 D3S해커톤은 D를 의미하는 <span style="color: #00c8ff;">디지털 미디어 고등학교</span>, <span style="color: #00c8ff;">대덕 소프트웨어마이스터 고등학교</span>, <span style="color: #00c8ff;">대구 소프트웨어 고등학교</span>와 S를 의미하는 <span style="color: #00c8ff;">선린인터넷</span> 고등학교 이렇게 네 학교가 모여서 진행한 해커톤입니다. 운영진까
@@ -30,6 +32,7 @@ Node.js를 이용해서 <span style="color: rgb(0, 163, 80)">페북을 이용한
 
 ***
 
+# 서버
 서버개발에서 어려웠던 점은 많지 않았지만
 오랜만에 진행하는 서버였기 때문에 많이 헷갈렸던 기억이 있습니다. ㅎㅎ
 한가지 에피소드로는 페이스북에서 로그인 후 가져오는 정보들을 저는 백엔드단에서 처리해주는 줄 알고 몇시간 동안 쩔쩔매며 "이메일이랑 나이같은거 어떻게 가져오지 ㅠㅠ" 하고 있었는데 알고보니 프론트엔드단에서 처리해주는 것이더라구요... 하... 이거 듣고 10분간 멍때렸어요.. ㅠㅠ
@@ -46,21 +49,15 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 
 ***
 
+# 클라이언트
 프론트 엔드의 경우는 이번 대회에서 개발자가 둘 이었기 때문에 각각 개발할 곳을 나누어
 개발했습니다.
 그래서 저는 실제로 명함을 원하는데로 디자인하고 만들 수 있는 그림판(?)같은 것을 만들었습니다.
 
-<div class="image3">
-<img src="http://postfiles11.naver.net/MjAxNzAyMDlfMjk0/MDAxNDg2NjE1MDk0ODI3.U8rwMPQclUrcv85-wDqFnPDFj_8SE03YNgg_5TzCIyUg.hEICV4to7A8IYjbxevQCjuDEBcjv60_RbqPS3Kp_q3Ig.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-11.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
-<img src="http://postfiles4.naver.net/MjAxNzAyMDlfMjgg/MDAxNDg2NjE1MTA1NzE1.Pf7IKyhvhiR7kdxDWvrfMyy89m413xVRfnbql-EIj4Ag.Pqd7iMd6fCANH6-PtvN9VYUuQMwPyeHSePOGbLOLunkg.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-1.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
-<img src="http://postfiles14.naver.net/MjAxNzAyMDlfMTUw/MDAxNDg2NjE1MTA1MDk1.dZkXmBqpLo5B9yFPeN43zNl2b6IXJvhmWz9NcJOCvsgg.dw7glrgKUl0KhoEkTuvw0P7UOR8Dh0scGIaM89HB6p0g.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-2.jpeg?type=w773" style=" width: auto; height: auto;"/>
-</div>
-
-<div class="image3">
-<img src="http://postfiles5.naver.net/MjAxNzAyMDlfMjg3/MDAxNDg2NjE1MTA1NDQ0.XV_SqiGNoprqKPKz5p6e0648-Mfwd8isuPv0tT6iKLUg.qKFPO5oylUBAUyE-lGoADgDMhumK3rX-r9WTEMpgFysg.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-3.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
-<img src="http://postfiles7.naver.net/MjAxNzAyMDlfMTUx/MDAxNDg2NjE1MTA1MTk1.GaY7O_AjhTSG38mufURE6IrjMfdBIm07lafppa-ukFwg.ntnXY7xXJzgMYS4kLwlwNKEQZ_PCxXHgSCg1NHO00Aog.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-4.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
-<img src="http://postfiles1.naver.net/MjAxNzAyMDlfMTAw/MDAxNDg2NjE1MTA1NTU5.7ahN_C6_GpP5DrRWzDpN3wwOKZfnxzbU7WIXRXUZ3Q4g.TBzKtq529Rf3Mq44INe7zhWh_bVs5KQtae6TsRtunMwg.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-35-50-5.jpeg?type=w773" style=" width: auto; height: auto;"/>
-</div>
+| ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_d0lCUmhDZGlaaFk) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_M0lpWXNnWUhvR0k) | ![image](https://drive.google.com/open?id=0B0QMcRMI39U_bXVIUnZycDd6RXc)
+|----
+| ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_bXNnZ0VsVDc5d1U) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_bVczUjJRM2lxazA) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_cjNkWndMV0xjVVk)
+{: rules="groups"}
 
 맨 왼쪽위가 아무것도 없는 그림판의 상태이고, 나머지 사진들은 디자인을 하는 중인 사진입니다. 실제로 저런식으로 자신이 원하는 글씨를 넣은 후 색, 폰트, 크기들을 원하는 데로 조절이 가능합니다.
 
@@ -69,22 +66,13 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 
 [https://github.com/wuapnjie/StickerView](https://github.com/wuapnjie/StickerView)
 
-
-<div class="image2">
-<img src="http://postfiles4.naver.net/MjAxNzAyMDlfNzgg/MDAxNDg2NjE1NDEzMzY4.5z6boOOVrbMLfmW3pOpBF4JDklGzDyq9RXwKDMKWMNUg.aCjtv60mY0qjr0l3bjDopAvc1U9mdH0aZOr2kMRyPZ4g.JPEG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-4.jpeg?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
-<img src="http://postfiles4.naver.net/MjAxNzAyMDlfMTQ2/MDAxNDg2NjE1NDAzNzQ0.xf-S4uRvc2XyqbRhQi6hmdRPsvR3SEGk0HQ9pqM9Llog.rZosD2DiXidh-nf1VBLMDa4M-Wdf8TQJW0bCEunxDSwg.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-1.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
-</div>
+| ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_RFh6Wmt0VmIzRjA) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_bkhXS19XUXktaGc)
 
 위 사진은 메인화면과 내 정보 설정 화면입니다.
 (제가 개발한 곳이 아니라 자세힌 모름...)
 메인 화면에는 아래와 같은 명함이 들어갑니다.
 
-
-<div class="image3">
-<img src="http://postfiles13.naver.net/MjAxNzAyMDlfMjQ4/MDAxNDg2NjE1NDg0NTk4.o0BR1H7QZ35o7exHc2Y6baAOf0fjMJIZydM7D0k7Hr8g.TmG0gQH-nh2i8YcFhaT8A-mSIOIJycnGQX3AjzZBV14g.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-8.png?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
-<img src="http://postfiles7.naver.net/MjAxNzAyMDlfMTU4/MDAxNDg2NjE1NDg0MDI0.kBk2bF942T6luNWuotOtuYLF08emMBV3iktIZAW1Xzkg.F6UhnnA9tvNh06AsATlxEg7IIumaPTdCWq1PGfdJwx0g.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-11.png?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
-<img src="http://postfiles13.naver.net/MjAxNzAyMDlfMjYz/MDAxNDg2NjE1NDg2MTA1.p7p3Tb_irPz2DdUvYOqTqPlOUe22QTT75kv9H77kL7gg.j-_gFx_7yd7l-lFNG1OZ7tADrHvwIn8jDNMzsHihYJwg.PNG.dudco1129/KakaoTalk_Photo_2017-02-09-13-06-20-12.png?type=w773" style=" width: auto; height: auto;"/>
-</div>
+| ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_RGdzRVJiaWpBekE) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_WGpSTXgtaDJyY3c) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_VXNUVDhUWWJNOG8)
 
 그리고 명함의 디자인을 사용자간의 커뮤니티에서 교환, 구매, 팔기 등이 가능하게 만들고 싶었지만 시간이 부족하여 실제로 구현은 못하였어요 ㅠㅠㅠㅠ
 
@@ -106,9 +94,6 @@ MongoDB를 이용하기 위해 <span style="color: rgb(167, 154, 0)">mongoose</s
 정말 다양한 팀이 있었지만 저희 팀은 그렇지않아서 정말 재미있게 대회를 즐길 수 있었습니다.
 또 엄청나게 수고해주신 저희 팀원 분들께 감사하고 사랑해요~
 
-#### *[소스코드](https://github.com/dudco/2016_School_Iot)*
+# *[소스코드](https://github.com/dudco/2016_School_Iot)*
 
-<div style="display: flex; width: 50%; height: 300px;">
-<img src="http://postfiles2.naver.net/MjAxNzAyMDlfMTAz/MDAxNDg2NjE2MTY5MTU4.EUnlOjbj_B0MzCrF8EhdHruZThAx3wPMbUOWmrbKtqEg.7sTVMqZq9V1jSu8TF2hwQR3T3I65lknovI5CYf37MfYg.JPEG.dudco1129/16422612_962862823846805_7392970621408548938_o.jpg?type=w773" style="margin-right: 3px; width: auto; height: auto"/>
-<img src="http://postfiles10.naver.net/MjAxNzAyMDlfMTk3/MDAxNDg2NjE2MTY5NjMw.dzzk8W-IQp7z1BpB6Ue3czw1DZtXD_PLJT4maBlhIu0g.tXAzXhXxefL0juPfbkSPSZcG2G7jEfTYDcjsycJFVWIg.JPEG.dudco1129/16587298_962861370513617_7659466880702575231_o.jpg?type=w773" style="margin-right: 3px; width: auto; height: auto;"/>
-</div>
+| ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_Uk1JdmpwQmVLbkU) | ![image](http://drive.google.com/uc?export=view&id=0B0QMcRMI39U_OWJ0OFJFQVY2NHM)

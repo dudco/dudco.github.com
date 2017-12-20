@@ -4,23 +4,13 @@ title:  "EDCAN 자바 수업"
 date:   2017-03-19 00:00:00 0000
 tags: ['자바', '안드로이드', '자바 기본']
 author: "dudco"
+categories:
+- study
 ---
 
 안녕하세요 오늘은 저의 동아리인 EDCAN(에드캔)에서 신입생 대상으로 자바 수업을 진행한 것을 포스팅하려고 합니다.
 
 <span style="font-size: 6px">사실 안드로이드에서 자바는 그렇게 깊게 알 필요 없다생각해서 간단하게 기본만 가르쳐 줍니당...<span>
-
-일단 목차는 다음과 같습니다.<br>
-<br>
-**<a href="#class">클래스와 인스턴스</a>**<br>
-**<a href="#member">클래스 멤버와 인스턴스 멤버</a>**<br>
-**<a href="#init">생성자</a>**<br>
-**<a href="#overload">오버로딩</a>**<br>
-**<a href="#extend">상속</a>**<br>
-**<a href="#override">오버라이딩</a>**<br>
-**<a href="#abmethod">추상메소드</a>**<br>
-**<a href="#inter">인터페이스</a>**
-<br><br>
 
 ***
 
@@ -37,14 +27,14 @@ author: "dudco"
 
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos%}
 class Main(){
     public static void main(String[] args){
         Animal ani = new Animal();
     //  ↑클래스       ↑인스턴스(화)
     }
 }
-~~~
+{% endhighlight %}
 
 코드에서는 위와 같다고 볼 수 있습니다.<br>
 Animal 클래스가 인스턴스가 되어서 ani라는 변수에 대입되는거죠!
@@ -61,7 +51,7 @@ Animal 클래스가 인스턴스가 되어서 ani라는 변수에 대입되는�
 다음과 같은 코드가 있다고 가정합니다.
 
 <strong style="float: left">Animal.java</strong><br>
-~~~java
+{% highlight java linenos%}
 class Animal{
     ...
 
@@ -69,14 +59,14 @@ class Animal{
 
     ...
 }
-~~~
+{% endhighlight %}
 
 
 위 Animal이란 클래스는 age라는 멤버를 가지고 있습니다.<br>
 이 멤버는 인스턴스마다 각각 다르게 가지고 있는 age라는 멤버입니다.<br>
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Main{
     public static void main(String[] args){
         Animal a1 = new Animal();
@@ -89,7 +79,8 @@ class Main{
         System.out.println("a2's age : " + a2.age); // a2's age : 12
     }
 }
-~~~
+{% endhighlight %}
+
 위와 같이 완전히 다른 메모리를 할당받고 다른 변수로 취급이 된다는 얘기 입니다.
 
 즉 현재는 '<span style="color : red;">인스턴스 멤버</span>'입니다.
@@ -103,7 +94,7 @@ class Main{
 인스턴스 멤버 앞에 **<span style="color : orange">static</span>** 을 붙이는 것 입니다.
 
 <strong style="float: left">Animal.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Animal{
     ...
 
@@ -111,10 +102,10 @@ class Animal{
 
     ...
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Main{
     public static void main(String[] args){
         Animal a1 = new Animal();
@@ -132,7 +123,7 @@ class Main{
         System.out.println("a2's age : " + a2.age); // a2's age : 12
     }
 }
-~~~
+{% endhighlight %}
 
 <br>
 또 클래스 멤버가 되면 굳이 인스턴스에서 멤버에 접근 할 필요가 사라집니다.<br>
@@ -140,13 +131,13 @@ class Main{
 <br>
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Main{
     public static void main(String[] args){
         System.out.println(Animal.age);
     }
 }
-~~~
+{% endhighlight %}
 
 <br><br>
 
@@ -160,22 +151,22 @@ class Main{
 
 
 <strong style="float: left">Animal.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Animal{
     public Animal(){
         System.out.println("Create Animal!!!");
     }
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Main{
     public static void main(String[] args){
         Animal ani = new Animal(); // Create Animal!!! (생성자 실행)
     }
 }
-~~~
+{% endhighlight %}
 
 <br><br>
 
@@ -186,7 +177,7 @@ class Main{
 오버로딩이란 이름이 같은 메소드라도 <span style="color : #00bfa5">인자의 개수</span>나 <span style="color : #00bfa5">인자의 자료형</span>이 다르면 다른 메소드로 인식하는 것 입니다.
 
 <strong style="float: left">Animal.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Animal{
     public void eat(){
         System.out.println("먹는다!");
@@ -196,11 +187,11 @@ class Animal{
         System.out.println(food + "를 먹는다!");
     }
 }
-~~~
+{% endhighlight %}
 
 
 <strong style="float: left">Main.java</strong><br>
-~~~
+{% highlight java linenos %}
 class Main{
     public static void main(String[] args){
         Animal a = new Animal();
@@ -208,7 +199,7 @@ class Main{
         a.eat("사과"); //사과를 먹는다!
     }
 }
-~~~
+{% endhighlight %}
 
 <br><br>
 
@@ -223,7 +214,7 @@ OOP(객체지향/Object-Oriented Programming)에서 제일 중요하다고 생�
 상속의 기능은 상속받은 자식 클래스는 부모 클래스의 모든 멤버들의 사용이 가능합니다.
 
 <strong style="float: left">Animal.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Animal{
     public void eat(){
         System.out.println("먹는다!");
@@ -233,19 +224,19 @@ class Animal{
         System.out.println("잔다!");
     }
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Tiger.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Tiger extends Animal{
     public void cry(){
         System.out.println("어흥!");
     }
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Main{
     public static void main(String[] args){
         Tiger t = new Tiger();
@@ -255,7 +246,7 @@ class Main{
         t.cry(); // 어흥!
     }
 }
-~~~
+{% endhighlight %}
 
 <br><br>
 
@@ -270,7 +261,7 @@ class Main{
 
 
 <strong style="float: left">Animal.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Animal{
     public void eat(){
         System.out.println("먹는다!");
@@ -280,10 +271,10 @@ class Animal{
         System.out.println("잔다!");
     }
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Tiger.java</strong><br>
-~~~java
+{% highlight java linenos %}
 class Tiger extends Animal{
     public void cry(){
         System.out.println("어흥!");
@@ -294,10 +285,10 @@ class Tiger extends Animal{
         System.out.println("호랑이가 먹는다!");
     }
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos%}
 class Main{
     public static void main(String[] args){
         Tiger t = new Tiger();
@@ -305,7 +296,7 @@ class Main{
 //      ↑부모클래스의 메소드가 아닌 자식클래스에서 재정의한 메소드가 실행됨
     }
 }
-~~~
+{% endhighlight %}
 
 <br><br>
 
@@ -321,7 +312,7 @@ class Main{
 평범한 메소드를 추상클래스로 만드는 예약어는 <span style="color : red">abstract</span>입니다.<br>
 
 <strong style="float: left">Main.java</strong><br>
-~~~java
+{% highlight java linenos%}
 abstract class Animal{
     ...
 
@@ -329,10 +320,10 @@ abstract class Animal{
 
     ...
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Tiger.java</strong><br>
-~~~java
+{% highlight java linenos%}
 class Tiger extends Animal{
     ...
 
@@ -343,11 +334,11 @@ class Tiger extends Animal{
 
     ...
 }
-~~~
+{% endhighlight %}
 
 
 <strong style="float: left">Main.java</strong><br>
-```java
+{% highlight java linenos %}
 class Tiger extends Animal{
     public static void main(){
         Animal a = new Animal(); // error!! Animal.class가 abstract(추상)클래스여서
@@ -355,9 +346,8 @@ class Tiger extends Animal{
         t.eat(); // 먹는다!
     }
 }
-```
+{% endhighlight %}
 
-<br><br>
 
 ***
 
@@ -365,7 +355,7 @@ class Tiger extends Animal{
 인터페이스는 추상메소드를 모아 둔 클래스라고 생각하면 됩니다.<br>
 
 <strong style="float: left">AnimalInter.java</strong><br>
-~~~
+{% highlight java linenos %}
 interface AnimalInter{
     ...
     void eat();
@@ -373,10 +363,10 @@ interface AnimalInter{
     void hello();
     ...
 }
-~~~
+{% endhighlight %}
 
 <strong style="float: left">Tiger.java</strong><br>
-~~~java
+{% highlight java linenos%}
 class Tiger extends Animal implements AnimalInter{
     ...
 
@@ -397,7 +387,7 @@ class Tiger extends Animal implements AnimalInter{
 
     ...
 }
-~~~
+{% endhighlight %}
 
 인터페이스는 다중으로 상속받을 수 있습니다.<br>
 
@@ -405,7 +395,7 @@ class Tiger extends Animal implements AnimalInter{
 
 ***
 
-![image](/images/17.03.19-Edcan_Java_Basic/image.jpg)
+![image](/assets/images/17.03.19-Edcan_Java_Basic/image.jpg)
 
 
 사실 저도 자바 쪽을 잘하지못해 과연 애들을 가르쳐 줄 수 있을까? 많이 고민을 했었습니다.<br>

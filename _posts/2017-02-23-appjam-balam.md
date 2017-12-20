@@ -4,9 +4,11 @@ title:  "발암"
 date:   2017-02-23
 tags: ['앱잼', '발암', '바람의 빛깔', '해커톤']
 author: "dudco"
+categories:
+- 2016년
 ---
 
-## *한꺼번에 정리하는 2016년* ##
+## *한꺼번에 정리하는 2016년*
 
 음...이때가 대략 3~4월쯤 됬을것이다. 고등학교에 처음 입학하고 친해진 김xx가 갑자기 와서는
 "야야 3월에 앱잼있데! 같이나가자!!" <--이러해서 갑자기 나가게된 첫 대회 나는 이 때 대회에 나갈려고 약 3주간 미친듯이 안드로이드를 공부했었던것 같다.
@@ -26,7 +28,7 @@ author: "dudco"
 
 나는 바로 3주동안 공부한 실력으로 디자이너가 주는 디자인을 레이아웃을 짜고... 자바코드를 짜고... 그러면서 대충 완성을 하게된다 근데 문제가 생겼다
 
-### "어떻게 문제를 내고 맞추지 못하면 사용을 못하게하지??" ###
+### "어떻게 문제를 내고 맞추지 못하면 사용을 못하게하지??"
 
 그리하여 나는 갓갓 동아리 선배에게 손을 내밀는데... 동아리선배께서 친히 그 한밤중에 스카이프로 코드설명까지 해주셨다
 ( 사실 설명안해주셔도 될정도로 코드를 너무 깔끔하게 짜 놓으신 상태였는뎅...)
@@ -34,10 +36,10 @@ author: "dudco"
  폰 최상위에 불투명한 뷰를 생성시키고 그곳에서 문제를 내고 맞추면 없에주고 못맞추면 안없에준다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 지금생각해도 어이없는기획...
 근데 문제는 뒤로가기를 누르면 뷰가 걍 사라진다는것... 이것을 해결하는 방법은...?
 
-#### 바로 뷰를 경고창으로 인식시키는것이다!! ####
+#### 바로 뷰를 경고창으로 인식시키는것이다!!
 
 예를 들면 여러분들이 앱을 사용하다가 앱이 죽으면 뜨는 경고창!!
-![image](http://postfiles2.naver.net/MjAxNzAxMTJfMjY0/MDAxNDg0MjI1ODMxNzc0.ZjzV9u2t1taj5H0GMehx8ZVK2EtIrZWZgw_7GzRS13Qg.e4_YKzCFk8b0xXn89mP1v81v66AJuUd5mg1D5lHNNh8g.PNG.dudco1129/a0056174_5807583011a30.png?type=w2)
+![image](http://drive.google.com/uc?export=view&id=1YI8kVVHCXwBiGlj96ySXerOPJvBcqjaX)
 
 그리하여..
 ![image](http://postfiles16.naver.net/MjAxNzAxMTJfMTU1/MDAxNDg0MjI2NTY5MjYw.11DjobIfiKCMCuGQVnXfOAUThbxiKKTjDnoQY008Aawg.ZPmnML9S_b8iePg5UZ2Ef-FCv6cTIzcM2Lce96OzXVAg.PNG.dudco1129/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2017-01-12_%EC%98%A4%ED%9B%84_10.09.00.png?type=w2)
@@ -47,14 +49,15 @@ author: "dudco"
 
 첫 대회로써 엄청나게 많은 것을 배웠다.  
 
-#### 첫 번째로 노력은 절대 배신하지 않는다!! ####
+## 느낀점!!
+### 노력은 절대 배신하지 않는다!!
 엄청나게 힘들게 3주간 밤낮을 소비하여 공부한결과 나는 첫 대회에서 "장려상"이라는 쏠쏠한 성과를 거뒀다 첫 대회치고는 엄청 만족 ㅎㅎ
 
-#### 두 번째로 팀 프로젝트의 경험! ####
+### 팀 프로젝트의 경험!
 처음으로 진행한 팀 프로젝트였다. 처음에 기획자가 기획을 안가져와 살짝의 멘붕, 또 내가해야할일을 어떻게든 해야겠다는 책임감..등등 좋은 경험이였던 것 같다.
 
 첫 대회에서 잃는 것 보다 얻는게 훨~~~씬 많았었다. 정말 좋은 경험이였던것 같다.
 
 <iframe src="https://docs.google.com/viewer?srcid=0B0QMcRMI39U_Y3J3SEZTa29XaU0&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="480px"></iframe>
 
-#### *[소스코드](https://github.com/dudco/balam)* ####
+### *[소스코드](https://github.com/dudco/balam)*

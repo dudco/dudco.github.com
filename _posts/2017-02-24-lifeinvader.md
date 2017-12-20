@@ -4,6 +4,8 @@ title:  "lifeinvader"
 date:   2017-02-24 21:08:33 0000
 tags: ['안드로이드', '보안']
 author: "dudco"
+categories:
+- 2016년
 ---
 
 
